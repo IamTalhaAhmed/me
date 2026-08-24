@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import profileImage from "./assets/me.png";
 import karloDealLogo from "./assets/karlodeal-logo.jpg";
-import wikiWoopLogo from "./assets/wikiwoop-logo.png";
+// import wikiWoopLogo from "./assets/wikiwoop-logo.png";
 import nuviaLogo from "./assets/nuvia-logo.jpg";
 import aimsLogo from "./assets/aims-logo.png";
 
@@ -186,13 +186,13 @@ export default function App() {
                   </p>
                 </div>
 
-                <div className="flex items-start gap-3">
+                {/* <div className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-purple-400 mt-3" />
 
                   <p className="text-white/80 text-lg">
                     Senior Software Engineer at WikiWoop
                   </p>
-                </div>
+                </div> */}
 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-pink-400 mt-3" />
@@ -381,7 +381,7 @@ export default function App() {
             </div>
 
             {/* WIKIWOOP */}
-            <div className="group backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 hover:border-purple-500/30 transition-all duration-300">
+            {/* <div className="group backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 hover:border-purple-500/30 transition-all duration-300">
 
               <div className="flex items-center justify-between mb-6">
 
@@ -441,7 +441,7 @@ export default function App() {
 
               </div>
 
-            </div>
+            </div> */}
 
             {/* NUVIA */}
             <div className="group backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 hover:border-pink-500/30 transition-all duration-300">
